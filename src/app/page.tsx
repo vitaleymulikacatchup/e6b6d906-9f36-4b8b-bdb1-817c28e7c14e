@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -9,7 +9,7 @@ import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Heart, Star, MessageCircle, Users, Shield, Calendar } from "lucide-react";
+import { Heart, Star, MessageCircle, Users, Shield, Calendar, Linkedin, Twitter, Instagram } from "lucide-react";
 
 export default function Home() {
   return (
@@ -148,7 +148,7 @@ export default function Home() {
               imageAlt: "Portrait of Jessica Martinez",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com"
                 }
               ]
@@ -162,7 +162,7 @@ export default function Home() {
               imageAlt: "Portrait of Alex Thompson",
               socialLinks: [
                 {
-                  icon: "Twitter",
+                  icon: Twitter,
                   url: "https://twitter.com"
                 }
               ]
@@ -176,7 +176,7 @@ export default function Home() {
               imageAlt: "Portrait of Maria Santos",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com"
                 }
               ]
